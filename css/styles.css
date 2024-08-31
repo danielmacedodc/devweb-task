@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Cabeçalho com imagem de fundo */
+header {
+    background-image: url('../images/nebula.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-weight: 700;
+    color: black; 
+    text-shadow: 
+        -1px -1px 0 rgb(192, 139, 240),  
+        1px -1px 0 blueviolet,
+        -1px 1px 0 blueviolet,
+        1px 1px 0 blueviolet;
+}
+
+/* Menu */
+.horizontal-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.horizontal-menu li {
+    margin: 0 10px;
+}
+
+.horizontal-menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.horizontal-menu li a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Estilo das seções */
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* Estilo do link na seção Portfólio */
+section a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center;
+    padding: 1px 0;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
